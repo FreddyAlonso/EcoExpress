@@ -12,6 +12,7 @@
 		CE161B8E1FB39303006CD058 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE161B8C1FB39303006CD058 /* Main.storyboard */; };
 		CE161B901FB39303006CD058 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE161B8F1FB39303006CD058 /* Assets.xcassets */; };
 		CE161B931FB39303006CD058 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE161B911FB39303006CD058 /* LaunchScreen.storyboard */; };
+		CE161BA21FB397D0006CD058 /* PantalleHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE161BA11FB397D0006CD058 /* PantalleHomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		CE161B8F1FB39303006CD058 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE161B921FB39303006CD058 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE161B941FB39303006CD058 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE161BA11FB397D0006CD058 /* PantalleHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PantalleHomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,71 @@
 		CE161B871FB39303006CD058 /* EcoExpress */ = {
 			isa = PBXGroup;
 			children = (
-				CE161B881FB39303006CD058 /* AppDelegate.swift */,
-				CE161B8A1FB39303006CD058 /* ViewController.swift */,
-				CE161B8C1FB39303006CD058 /* Main.storyboard */,
-				CE161B8F1FB39303006CD058 /* Assets.xcassets */,
-				CE161B911FB39303006CD058 /* LaunchScreen.storyboard */,
+				CE161BA01FB3940A006CD058 /* Resources */,
+				CE161B9F1FB393BC006CD058 /* Main */,
+				CE161B9E1FB393A9006CD058 /* Model */,
+				CE161B9D1FB3939B006CD058 /* Dao */,
+				CE161B9C1FB39395006CD058 /* Service */,
+				CE161B9B1FB39389006CD058 /* View */,
+				CE161B9A1FB3933E006CD058 /* ViewController */,
 				CE161B941FB39303006CD058 /* Info.plist */,
 			);
 			path = EcoExpress;
+			sourceTree = "<group>";
+		};
+		CE161B9A1FB3933E006CD058 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CE161B8A1FB39303006CD058 /* ViewController.swift */,
+				CE161BA11FB397D0006CD058 /* PantalleHomeViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		CE161B9B1FB39389006CD058 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE161B9C1FB39395006CD058 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		CE161B9D1FB3939B006CD058 /* Dao */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Dao;
+			sourceTree = "<group>";
+		};
+		CE161B9E1FB393A9006CD058 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE161B9F1FB393BC006CD058 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				CE161B881FB39303006CD058 /* AppDelegate.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		CE161BA01FB3940A006CD058 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CE161B911FB39303006CD058 /* LaunchScreen.storyboard */,
+				CE161B8F1FB39303006CD058 /* Assets.xcassets */,
+				CE161B8C1FB39303006CD058 /* Main.storyboard */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +197,7 @@
 			files = (
 				CE161B8B1FB39303006CD058 /* ViewController.swift in Sources */,
 				CE161B891FB39303006CD058 /* AppDelegate.swift in Sources */,
+				CE161BA21FB397D0006CD058 /* PantalleHomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
